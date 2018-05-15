@@ -11,7 +11,7 @@ setup(
     version='1.0',
     packages=find_packages(),
     install_requires=[],
-    entry_points={
+rs={
         'console_scripts': [
             'imaprelay = imaprelay.command:main'
         ]

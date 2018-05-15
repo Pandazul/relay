@@ -21,7 +21,7 @@ def main():
     if '-v' in sys.argv:
         log.setLevel(logging.DEBUG)
 
-    configfile = os.path.expanduser('~\desktop\imap\imaprelay.cfg')
+    configfile = os.path.expanduser('~\imaprelay.cfg')
 
     st = os.stat(configfile)
     # if bool(st.st_mode & (stat.S_IRGRP | stat.S_IROTH)):
